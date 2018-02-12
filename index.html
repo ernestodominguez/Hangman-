@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title> Hangman </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Butcherman" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+       
+    <div class="container-fluid text-center">
+        <h1 class="head">Hangman Game</h1>
+        <h3><img src="https://m.popkey.co/a48282/16Oyj.gif"></h3>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8 window" >
+                <h4>This hangman game is based off scary movies!</h4>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <div class="container-fluid text-center game-screen window" >
+        <h2 class="underscore"></h2>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 window" >
+                <p>Right Guess: <span class="rightGuess"></span></p>
+                <br>
+                <p>Wrong Guess: <span class="wrongGuess"></span></p>
+            </div>
+         
+            <div class="col-md-6">
+            </div>
+
+            <div class="col-md-3 window" >
+                <p>restart words words words</p>
+            </div>
+        </div>
+    </div>
+    </body>
+    <script src="assets/javascript/game.js"></script>
+</html>
